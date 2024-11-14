@@ -22,3 +22,18 @@ table{
 ul{
     padding-bottom: 50px;
 }
+button{
+    padding:20px;
+    background-color: aqua;
+    margin-top:180px;
+    box-shadow: 10px 10px 10px black;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+img{
+    margin-top: 60px;
+    border-radius: 50%;
+}
