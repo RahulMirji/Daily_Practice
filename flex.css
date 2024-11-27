@@ -1,0 +1,36 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+li{
+    border: 1px solid black;
+    margin : 0.5em;
+    padding: 0.5em;
+}
+
+.item1{
+    background-color: brown;
+    color: white;
+}
+
+.item2{
+    background-color: aqua;
+    color: white;
+}
+
+.item3{
+    background-color: rgb(66, 66, 202);
+    color: white;
+}
+
+.item4{
+    background-color: red;
+    color: white;
+}
+
+.item5{
+    background-color: chartreuse;
+    color: white;
+}
