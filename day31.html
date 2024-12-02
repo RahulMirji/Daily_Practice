@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .container div {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        @media(max-width:600px){
+            .container{
+                /* grid-template-columns: 1fr; */
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div><img src="media/ear podes/1.jpg" alt="Ear Pods"></div>
+            <div><img src="media/camera/1.jpg" alt="Camera"></div>
+            <div><img src="media/iPad/1.jpg" alt="iPad"></div>
+            <div><img src="media/mac/1.jpg" alt="Mac"></div>
+            <div><img src="media/mac/2.jpg" alt="Mac"></div>
+            <div><img src="media/phone/4.jpg" alt="Phone"></div>
+        </div>
+    </main>
+</body>
+</html>
