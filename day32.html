@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Z-Index Example</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border: 3px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .box1 {
+            background-color: red;
+            z-index: 0; /* This element is layered below */
+            top: 50px;
+            left: 50px;
+        }
+
+        .box2 {
+            background-color: blue;
+            z-index: 1; /* This element is layered above */
+            top: 100px;
+            left: 100px;
+        }
+
+        .box3 {
+            background-color: green;
+            z-index: 2; /* This element is layered behind both */
+            top: 150px;
+            left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</body>
+</html>
