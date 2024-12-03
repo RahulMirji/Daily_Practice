@@ -21,7 +21,7 @@
             height: 150px;
             border: 3px solid #000;
             display: flex;
-            justify-content: center;
+            justify-content: left;
             align-items: center;
             color: white;
             font-weight: bold;
@@ -29,21 +29,21 @@
 
         .box1 {
             background-color: red;
-            z-index: 0; /* This element is layered below */
+            z-index: 2; /* This element is layered below */
             top: 50px;
             left: 50px;
         }
 
         .box2 {
             background-color: blue;
-            z-index: 1; /* This element is layered above */
+            z-index: 0; /* This element is layered above */
             top: 100px;
             left: 100px;
         }
 
         .box3 {
             background-color: green;
-            z-index: 2; /* This element is layered behind both */
+            z-index: 1; /* This element is layered behind both */
             top: 150px;
             left: 150px;
         }
