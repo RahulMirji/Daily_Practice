@@ -276,8 +276,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 57.50868606567383,
-			"y": 1153.412579025302,
+			"x": 58.05628447479586,
+			"y": 1160.267933549984,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1384,14 +1384,14 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 62.95169110450685,
-			"y": 1106.121905174416,
-			"lastActivityTimestamp": 1733317407881,
+			"x": 58.16205278445993,
+			"y": 1281.8634574722291,
+			"lastActivityTimestamp": 1733395955718,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
-			"opacityForNextShape": 1,
+			"opacityForNextShape": 0.5,
 			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
@@ -1438,7 +1438,7 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:pJdJoTswc239rhWs3qNs9"
+				"shape:qX_wGzYN4_jZt0wFug_-G"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -1450,9 +1450,9 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 54.84275114848401,
-			"y": -895.7166466997494,
-			"z": 0.5479691624513301,
+			"x": 88.70443134352486,
+			"y": -1052.1119092577744,
+			"z": 0.9184020275796834,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
