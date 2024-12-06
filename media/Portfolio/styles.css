@@ -44,3 +44,38 @@ logo styling */
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* Day 2 of Portfolio building */
+
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* right side text */
+.header-text {
+    margin-top: 20px;
+    font-size: 30px;
+    position: relative;
+    left: 2%;
+}
+
+.header-text h1 {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: #ff004f;
+}
+
+.right-column img {
+    width: 200px; /* Adjusted width for better visibility */
+    height: 250px; /* Made height equal to width for a perfect circle */
+    border-radius: 50%; /* Keeps the image circular */
+    object-fit: cover; /* Ensures the image scales proportionally */
+    margin-left: 20px; /* Adds space between the image and text */
+    box-shadow: 4px 4px 8px rgba(208, 22, 22, 0.971); /* Subtle shadow for aesthetics */
+}
