@@ -79,3 +79,58 @@ logo styling */
     margin-left: 20px; /* Adds space between the image and text */
     box-shadow: 4px 4px 8px rgba(208, 22, 22, 0.971); /* Subtle shadow for aesthetics */
 }
+
+/* Skills Column */
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.skills-column {
+    flex:0 0 35%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-right: 60%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.skills-column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skills-column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-column li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.about-column  {
+    flex:0 0 60%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.about-column h2 {
+     font-size: 24px;
+     margin-bottom: 10px;
+     color: #333;
+}
+
+.about-column p {
+    font-size: 18px;
+    line-height:  1.6;
+    color: #555;
+}
