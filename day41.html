@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <style>
+        h1,h2{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>DAY 3 of Javascript</h1>
+    <h2>Variables in JS</h2>
+    </div>
+    <!-- Basically there are there data types in js -->
+     <!-- var, let and const -->
+     
+     <script>
+    //  Var
+    //  Use var for old-style JavaScript. It's function-scoped, which means it works inside a function 
+        var x = 5;
+        console.log(x);
+        
+        
+        // let 
+        // Use let for modern JavaScript. It's block-scoped, meaning it works only within {}
+        let y = 10;
+        if (true) {
+        let y = 20;
+        console.log(y);
+        }
+        console.log(y);
+        
+        
+        // const is also block-scoped but for values that don’t change.
+        const z = 15;
+        console.log(z); // 15
+
+     </script>
+</body>
+</html>
