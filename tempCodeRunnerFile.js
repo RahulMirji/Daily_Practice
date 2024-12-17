@@ -1,2 +1,4 @@
-let remainder = 10 % 3; // 1
-// console.log(remainder);
+for (let i = 1; i <= 100; i++) {  
+//     console.log(i);   
+//   }
+ 
