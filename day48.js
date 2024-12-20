@@ -3,7 +3,7 @@ let person = {
     age: 30  
   };  
   
-  // Accessing properties  
-  console.log(person.name); // Using dot notation  
-  console.log(person["age"]); // Using bracket notation  
+  console.log(person.name); 
+
+  console.log(person["age"]); 
   
