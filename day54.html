@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: bisque;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .box{
+        width: 600px;
+        height: 380px;
+        padding: 25px;
+        background-color: rgb(105, 105, 178);
+        border-radius: 10px; 
+        text-align: justify;
+        box-shadow: 7px 7px 50px rgb(163, 20, 20);
+    }
+    #changeText{
+        padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(91, 59, 91);
+    color: white;
+    }
+#changeColor{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(91, 59, 91);
+    color: white;
+}
+
+#heading{
+    margin-bottom: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+  <h1 id="heading">Welcome to my website!</h1>
+  <button id="changeText">Change Text</button>
+  <button id="changeColor">Change Color</button>
+  </div>
+  </div>
+  <script src="day54.js"></script>
+</body>
+</html>
