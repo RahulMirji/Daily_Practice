@@ -16,6 +16,6 @@ heading.addEventListener("mouseout", () => {
 });
 
 // Adding an onClick event to the button
-button.addEventListener("click", () => {
+("click", () => {
   output.textContent = "You clicked the button!";
 });
